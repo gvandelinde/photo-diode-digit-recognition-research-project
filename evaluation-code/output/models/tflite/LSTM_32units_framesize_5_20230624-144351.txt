@@ -1,0 +1,3 @@
+Model name: LSTM_32units_framesize_5
+Size: 19.216 KB
+Test loss: 1.7920560836791992, Test acc: 0.41363635659217834

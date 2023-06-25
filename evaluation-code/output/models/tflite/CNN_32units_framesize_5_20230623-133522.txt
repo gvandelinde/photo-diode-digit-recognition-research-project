@@ -1,0 +1,3 @@
+Model name: CNN_32units_framesize_5
+Size: 49.016 KB
+Test loss: 1.7782297134399414, Test acc: 0.44999998807907104

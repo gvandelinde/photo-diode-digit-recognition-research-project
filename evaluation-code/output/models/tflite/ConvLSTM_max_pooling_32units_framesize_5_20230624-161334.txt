@@ -1,0 +1,2 @@
+Model name: ConvLSTM_max_pooling_32units_framesize_5
+Size: 418.744 KB

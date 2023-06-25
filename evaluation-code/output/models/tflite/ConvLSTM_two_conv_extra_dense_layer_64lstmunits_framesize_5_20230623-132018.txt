@@ -1,0 +1,3 @@
+Model name: ConvLSTM_two_conv_extra_dense_layer_64lstmunits_framesize_5
+Size: 242.336 KB
+Test loss: 1.9771206378936768, Test acc: 0.3545454442501068

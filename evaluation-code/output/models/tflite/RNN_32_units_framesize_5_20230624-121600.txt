@@ -1,0 +1,3 @@
+Model name: RNN_32_units_framesize_5
+Size: 13.352 KB
+Test loss: 2.284809112548828, Test acc: 0.16818182170391083

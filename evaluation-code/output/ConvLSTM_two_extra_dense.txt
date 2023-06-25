@@ -1,0 +1,40 @@
+==> ./ConvLSTM_two_conv_extra_dense_layer_128lstmunits_framesize_5_20230623-115025/results.txt <==
+Params: {'verbose': 0, 'epochs': 200, 'steps': 44}
+Mean acc: 0.49636363983154297 with an std of: 0.098136218273881
+Mean loss: 3.927987003326416
+
+Stats for each fold:loss: 2.530963182449341, accuracy: 0.6068181991577148
+loss: 3.306091547012329, accuracy: 0.574999988079071
+loss: 3.7187414169311523, accuracy: 0.5424242615699768
+loss: 5.244747161865234, accuracy: 0.3787878751754761
+loss: 4.839391708374023, accuracy: 0.3787878751754761
+==> ./ConvLSTM_two_conv_extra_dense_layer_256lstmunits_framesize_5_20230623-120901/results.txt <==
+Params: {'verbose': 0, 'epochs': 200, 'steps': 44}
+Mean acc: 0.49045454859733584 with an std of: 0.08788348122268208
+Mean loss: 4.0129773139953615
+
+Stats for each fold:loss: 2.535573959350586, accuracy: 0.5909090638160706
+loss: 3.913315534591675, accuracy: 0.543181836605072
+loss: 3.835313558578491, accuracy: 0.5
+loss: 5.154555320739746, accuracy: 0.33030304312705994
+loss: 4.626128196716309, accuracy: 0.48787879943847656
+==> ./ConvLSTM_two_conv_extra_dense_layer_32lstmunits_framesize_5_20230623-111649/results.txt <==
+Params: {'verbose': 0, 'epochs': 200, 'steps': 44}
+Mean acc: 0.4348484814167023 with an std of: 0.07466945545474556
+Mean loss: 3.321893835067749
+
+Stats for each fold:loss: 2.4411780834198, accuracy: 0.5204545259475708
+loss: 2.627117395401001, accuracy: 0.5022727251052856
+loss: 3.0227293968200684, accuracy: 0.4575757682323456
+loss: 3.658900499343872, accuracy: 0.35151514410972595
+loss: 4.859543800354004, accuracy: 0.3424242436885834
+==> ./ConvLSTM_two_conv_extra_dense_layer_64lstmunits_framesize_5_20230623-113320/results.txt <==
+Params: {'verbose': 0, 'epochs': 200, 'steps': 44}
+Mean acc: 0.5121212184429169 with an std of: 0.07737219268707449
+Mean loss: 3.341981220245361
+
+Stats for each fold:loss: 2.955071210861206, accuracy: 0.5613636374473572
+loss: 2.5920560359954834, accuracy: 0.6113636493682861
+loss: 3.494929552078247, accuracy: 0.5454545617103577
+loss: 3.3765146732330322, accuracy: 0.42424243688583374
+loss: 4.291334629058838, accuracy: 0.41818180680274963

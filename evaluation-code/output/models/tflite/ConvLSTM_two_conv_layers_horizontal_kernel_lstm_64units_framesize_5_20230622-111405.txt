@@ -1,0 +1,3 @@
+Model name: ConvLSTM_two_conv_layers_horizontal_kernel_lstm_64units_framesize_5
+Size: 237.624 KB
+Test loss: 1.4959001541137695, Test acc: 0.5363636612892151

@@ -1,0 +1,69 @@
+
+\begin{figure}
+    %  CNN
+    \begin{subtable}{0.5\linewidth}
+    \setlength{\tabcolsep}{2pt}
+    \centering
+    \fontsize{6}{6}\selectfont{
+    \begin{tabular}{cc}
+    {\resizebox{\columnwidth}{!}{
+        \begin{tabular}{|p{\columnwidth}|}
+          \hline
+          {\textbf{CNN}} \\
+          \hline
+          \textit{Parameters}: $x$ kernels \\
+          \hline
+          1. Time-Distributed Reshape to shape (5, 3, 1) of each time frame.\\
+          \hline
+          2. Time-Distributed Conv2D-layer with $x$ kernels of shape (2, 2) followed by a Dropout layer with $p=0.25$\\
+          \hline
+          3. Another Time-Distributed Conv2D-layer with $x$ kernels of shape (2, 2) followed by a Dropout layer with $p=0.25$\\
+          \hline
+          4. A Dropout layer with $p=0.5$, a Flatten-Layer and a soft-max-activated Dense layer with 10 units, one for each output class.\\
+          \hline
+        \end{tabular} 
+    }
+    \\
+    \\
+    \resizebox{\columnwidth}{!}{
+        \begin{tabular}{|p{\columnwidth}|}
+          \hline
+          {\textbf{CNN}} \\
+          \hline
+          \textit{Parameters}: $x$ kernels \\
+          \hline
+          1. Time-Distributed Reshape to shape (5, 3, 1) of each time frame.\\
+          \hline
+          2. Time-Distributed Conv2D-layer with $x$ kernels of shape (2, 2) followed by a Dropout layer with $p=0.25$\\
+          \hline
+          3. Another Time-Distributed Conv2D-layer with $x$ kernels of shape (2, 2) followed by a Dropout layer with $p=0.25$\\
+          \hline
+          4. A Dropout layer with $p=0.5$, a Flatten-Layer and a soft-max-activated Dense layer with 10 units, one for each output class.\\
+          \hline
+        \end{tabular} 
+    }
+    
+    }
+        &
+        \resizebox{\columnwidth}{!}{
+          \begin{tabular}{|p{\columnwidth}|}
+          \hline
+          {\textbf{RNN}} \\
+          \hline
+          \textit{Parameters}: $x$ units \\
+          \hline
+          1. A Time-Distributed Flatten layer to flatten each time frame.\\
+          \hline
+          2. A SimpleRNN-layer with $x$ units, followed by a Dropout layer with $p=0.25$.
+          \hline
+          3. a Flatten-Layer and a soft-max-activated Dense layer with 10 units, one for each output class.\\
+          \hline
+        \end{tabular}
+    }
+    \end{tabular}
+    }
+    \end{subtable}
+    \caption{The configurations for each models that were tested}
+    \label{fig:models}
+\end{figure}
+

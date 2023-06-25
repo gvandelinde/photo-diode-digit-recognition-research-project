@@ -1,0 +1,3 @@
+Model name: ConvLSTM_max_pooling_32units_framesize_5
+Size: 57.008 KB
+Test loss: 1.8546583652496338, Test acc: 0.30000001192092896

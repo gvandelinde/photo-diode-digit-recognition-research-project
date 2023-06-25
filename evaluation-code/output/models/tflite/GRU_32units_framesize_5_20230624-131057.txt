@@ -1,0 +1,3 @@
+Model name: GRU_32units_framesize_5
+Size: 18.304 KB
+Test loss: 2.129796028137207, Test acc: 0.22727273404598236

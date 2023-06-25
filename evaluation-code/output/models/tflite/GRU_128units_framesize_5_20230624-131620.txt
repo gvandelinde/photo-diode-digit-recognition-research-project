@@ -1,0 +1,3 @@
+Model name: GRU_128units_framesize_5
+Size: 71.992 KB
+Test loss: 2.0847055912017822, Test acc: 0.3181818127632141

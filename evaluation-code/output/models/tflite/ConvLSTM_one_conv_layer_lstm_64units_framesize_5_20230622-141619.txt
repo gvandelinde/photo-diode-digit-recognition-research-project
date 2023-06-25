@@ -1,0 +1,3 @@
+Model name: ConvLSTM_one_conv_layer_lstm_64units_framesize_5
+Size: 298.56 KB
+Test loss: 1.7210537195205688, Test acc: 0.4727272689342499

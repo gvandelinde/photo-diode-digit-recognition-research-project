@@ -1,0 +1,60 @@
+==> ./ConvLSTM_one_conv_layer_lstm_128units_framesize_5_20230622-142058.txt <==
+Model name: ConvLSTM_one_conv_layer_lstm_128units_framesize_5
+Size: 610.752 KB
+Test loss: 2.4990596771240234, Test acc: 0.4681818187236786
+==> ./ConvLSTM_one_conv_layer_lstm_32units_framesize_5_20230622-141204.txt <==
+Model name: ConvLSTM_one_conv_layer_lstm_32units_framesize_5
+Size: 154.752 KB
+Test loss: 1.5946754217147827, Test acc: 0.33181819319725037
+==> ./ConvLSTM_one_conv_layer_lstm_64units_framesize_5_20230622-141619.txt <==
+Model name: ConvLSTM_one_conv_layer_lstm_64units_framesize_5
+Size: 298.56 KB
+Test loss: 1.7210537195205688, Test acc: 0.4727272689342499
+==> ./ConvLSTM_one_conv_layers_horizontal_kernel_lstm_128units_framesize_5_20230622-110617.txt <==
+Model name: ConvLSTM_one_conv_layers_horizontal_kernel_lstm_128units_framesize_5
+Size: 676.152 KB
+Test loss: 1.3951870203018188, Test acc: 0.5727272629737854
+==> ./ConvLSTM_one_conv_layers_horizontal_kernel_lstm_32units_framesize_5_20230622-105917.txt <==
+Model name: ConvLSTM_one_conv_layers_horizontal_kernel_lstm_32units_framesize_5
+Size: 171.0 KB
+Test loss: 1.494428038597107, Test acc: 0.5090909004211426
+==> ./ConvLSTM_one_conv_layers_horizontal_kernel_lstm_64units_framesize_5_20230622-110221.txt <==
+Model name: ConvLSTM_one_conv_layers_horizontal_kernel_lstm_64units_framesize_5
+Size: 331.192 KB
+Test loss: 1.437305212020874, Test acc: 0.5636363625526428
+==> ./ConvLSTM_two_conv_layers_horizontal_kernel_lstm_128units_framesize_5_20230622-111816.txt <==
+Model name: ConvLSTM_two_conv_layers_horizontal_kernel_lstm_128units_framesize_5
+Size: 418.744 KB
+Test loss: 1.6969584226608276, Test acc: 0.5454545617103577
+==> ./ConvLSTM_two_conv_layers_horizontal_kernel_lstm_32units_framesize_5_20230622-111007.txt <==
+Model name: ConvLSTM_two_conv_layers_horizontal_kernel_lstm_32units_framesize_5
+Size: 159.352 KB
+Test loss: 1.7233070135116577, Test acc: 0.4909090995788574
+==> ./ConvLSTM_two_conv_layers_horizontal_kernel_lstm_64units_framesize_5_20230622-111405.txt <==
+Model name: ConvLSTM_two_conv_layers_horizontal_kernel_lstm_64units_framesize_5
+Size: 237.624 KB
+Test loss: 1.4959001541137695, Test acc: 0.5363636612892151
+==> ./ConvLSTM_two_conv_layers_lstm_128units_framesize_5_20230622-143202.txt <==
+Model name: ConvLSTM_two_conv_layers_lstm_128units_framesize_5
+Size: 353.336 KB
+Test loss: 1.9166715145111084, Test acc: 0.48181816935539246
+==> ./ConvLSTM_two_conv_layers_lstm_32units_framesize_5_20230622-142418.txt <==
+Model name: ConvLSTM_two_conv_layers_lstm_32units_framesize_5
+Size: 143.096 KB
+Test loss: 1.808354377746582, Test acc: 0.3136363625526428
+==> ./ConvLSTM_two_conv_layers_lstm_64units_framesize_5_20230622-142741.txt <==
+Model name: ConvLSTM_two_conv_layers_lstm_64units_framesize_5
+Size: 204.984 KB
+Test loss: 1.7338206768035889, Test acc: 0.4636363685131073
+==> ./expr_2_ConvLSTM_complex_horizontal_kernel_lstm_128units_framesize_5_20230622-113536.txt <==
+Model name: expr_2_ConvLSTM_complex_horizontal_kernel_lstm_128units_framesize_5
+Size: 222.696 KB
+Test loss: 1.6537184715270996, Test acc: 0.3863636255264282
+==> ./expr_2_ConvLSTM_complex_horizontal_kernel_lstm_32units_framesize_5_20230622-112409.txt <==
+Model name: expr_2_ConvLSTM_complex_horizontal_kernel_lstm_32units_framesize_5
+Size: 110.864 KB
+Test loss: 1.977748155593872, Test acc: 0.2863636314868927
+==> ./expr_2_ConvLSTM_complex_horizontal_kernel_lstm_64units_framesize_5_20230622-112946.txt <==
+Model name: expr_2_ConvLSTM_complex_horizontal_kernel_lstm_64units_framesize_5
+Size: 139.984 KB
+Test loss: 1.7598540782928467, Test acc: 0.41818180680274963

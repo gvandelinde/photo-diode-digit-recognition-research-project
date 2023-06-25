@@ -1,0 +1,3 @@
+Model name: expr_2_ConvLSTM_complex_horizontal_kernel_lstm_128units_framesize_5
+Size: 222.696 KB
+Test loss: 1.6537184715270996, Test acc: 0.3863636255264282

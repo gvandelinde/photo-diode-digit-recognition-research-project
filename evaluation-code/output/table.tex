@@ -1,0 +1,104 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Results of 5 split KFold, 100 epochs, rounded to the 3rd decimal}
+  \label{tab:sample}
+  \begin{tabular}{|cc|c|c|c|}
+     % CNN
+    \hline
+    \multicolumn{5}{|l|}{\textbf{CNN model}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 kernels & 0.0 & 0.0 & 0.0\\
+     & 64 kernels & 0.0 & 0.0 & 0.0\\
+     & 128 kernels & 0.0 & 0.0 & 0.0\\
+    % RNN
+    \hline
+    \multicolumn{5}{|l|}{\textbf{RNN model}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.0 & 0.0 & 0.0\\
+     & 64 units & 0.0 & 0.0 & 0.0\\
+     & 128 units & 0.0 & 0.0 & 0.0\\
+    % GRU
+    \hline
+    \multicolumn{5}{|l|}{\textbf{GRU model}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.356 & 0.036 & 2.414\\
+     & 64 units & 0.416 & 0.098 & 3.192\\
+     & 128 units & 0.442 & 0.121 & 3.676\\
+    \hline
+     
+    % LSTM
+    \multicolumn{5}{|l|}{\textbf{LSTM model}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.373 & 0.0794 & 2.459\\
+     & 64 units & 0.408 & 0.086 & 3.247\\
+     & 128 units & 0.413 & 0.098 & 3.380\\
+    \hline
+    
+    % LSTM with an extra dense layer
+    \multicolumn{5}{|l|}{\textbf{LSTM model with extra dense layer}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.375 & 0.092 & 2.423\\
+     & 64 units & 0.401 & 0.077 & 3.643\\
+     & 128 units & 0.445 & 0.085 & 3.559\\
+    \hline
+    
+    % ConvLSTM single convultional layer (3, 1)
+    \multicolumn{5}{|l|}{\textbf{ConvLSTM single conv. layer (3, 1) kernel}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.442 & 0.108 & 2.758 \\
+     & 64 units & 0.423 & 0.800 & 3.523 \\
+     & 128 units & 0.491 & 0.073 & 3.280 \\
+    \hline
+    % ConvLSTM single convolutional layer (2, 2)
+    \multicolumn{5}{|l|}{\textbf{ConvLSTM single conv. layer (2, 2) kernel}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.424 & 0.086 & 2.706 \\
+     & 64 units & 0.445 & 0.070 & 3.451\\
+     & 128 units & 0.463 & 0.082 & 3.49\\
+    \hline
+    % ConvLSTM double convolutional layer
+    \multicolumn{5}{|l|}{\textbf{ConvLSTM double conv. layer}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.445 & 0.077 & 2.873\\
+     & 64 units & 0.468 & 0.081 & 3.127\\
+     & 128 units & 0.500 & 0.091 & 3.158\\
+    \hline
+    
+    % ConvLSTM double convolutional layer extra dense layer
+    \multicolumn{5}{|l|}{\textbf{ConvLSTM double conv. first (3, 1) then (2, 2) kernel, extra dense layer}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.0 & 0.0 & 0.0 \\
+     & 64 units & 0.0 & 0.0 & 0.0 \\
+     & 128 units & 0.0 & 0.0 & 0.0 \\
+    \hline
+    
+    % ConvLSTM with max pooling
+    \multicolumn{5}{|l|}{\textbf{ConvLSTM max pooling}}\\
+    \hline
+     {} & {\textit{Parameters}} & {\textit{Accuracy}} & {\textit{SD}} & {\textit{Loss}}\\
+    \hline
+     & 32 units & 0.385 & 0.091 & 2.305\\
+     & 64 units & 0.417 & 0.097 & 2.952\\
+     & 128 units & 0.429 & 0.125 & 3.318\\
+    \hline
+    % 
+  \end{tabular}
+\end{table}
